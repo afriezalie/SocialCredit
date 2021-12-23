@@ -1,0 +1,24 @@
+name: SocialCredit
+version: 0.0.1
+author: KangBakso
+main: com.kangbakso.socialcredit.SocialCredit
+depend: [Essentials, Vault]
+api-version: 1.18
+commands:
+  socialcredit:
+    description: SocialCredit plugin
+    usage: /socialcredit
+    permission: socialcredit
+permissions:
+  socialcredit:
+    description: Allow access to /socialcredit
+  socialcredit.admin.add:
+    description: Allow access to /socialcredit add
+    default: op
+  socialcredit.admin.subtract:
+    description: Allow access to /socialcredit subtract
+    default: op
+  socialcredit.command.check:
+    description: Allow access to /socialcredit check
+  socialcredit.command.checkplayer:
+    description: Allow access to /socialcredit check <player>
